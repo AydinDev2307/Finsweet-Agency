@@ -9,7 +9,7 @@ import Linkedin from '.././assets/icons/LinkedinIcon.svg';
 
 const Footer = () => {
   return (
-    <footer className="w-[1600px] h-[560px] mt-[96px]">
+    <footer className="w-[1600px] h-[560px] mt-[96px] container mx-auto">
       <div className="w-[1278px] h-[416px] conatiner mx-auto flex justify-between">
         <div className="w-[452px] h-[416px]">
           <img src={FooterIcon} alt="Icon" />

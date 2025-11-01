@@ -7,8 +7,8 @@ const Header = () => {
     navigate('/');
   };
   return (
-    <header className="fixed top-0 left-0 w-[1600px] h-[80px] z-50 bg-[rgba(35,37,54,1)] border-b border-[rgba(255,255,255,0.05)]">
-      <nav className="flex items-center justify-between h-[80px]">
+    <header className="fixed top-0 left-0 w-full h-[80px] z-50 bg-[rgba(35,37,54,1)] border-b border-[rgba(255,255,255,0.05)]">
+      <nav className="flex items-center justify-between w-[1600px] h-[80px] container mx-auto">
         <img
           onClick={handleLogoClick}
           className="ml-[160px] w-[122px] cursor-pointer"

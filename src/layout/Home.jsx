@@ -10,7 +10,7 @@ import Logos4 from '../assets/imgs/Logos4.svg';
 import Logos5 from '../assets/imgs/Logos5.svg';
 const Home = () => {
   return (
-    <main className="w-[1600px] mt-[80px]">
+    <main className="w-[1600px] mt-[80px] container mx-auto">
       <section className="w-[1600px] h-[898px] bg-[rgba(35,37,54,1)] pt-[80px]">
         <div className="w-[1280px] h-[632px] container mx-auto flex gap-[93px]">
           <div className="mt-[56px] w-[624px] h-[420px]">
